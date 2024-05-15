@@ -196,3 +196,67 @@
 
 - **POST /api/courses/{courseId}/schedule**
   -
+
+  ### Recommended Technologies for the Project
+
+#### Backend
+1. **Java Spring Boot**
+   - Framework for building the RESTful API.
+   - Spring Security for authentication and authorization.
+   - Spring Data JPA for database interaction.
+
+2. **Database**
+   - **PostgreSQL**: Relational database for storing user data, courses, assignments, submissions, etc.
+   - **H2 Database**: In-memory database for testing purposes.
+
+3. **Build and Dependency Management**
+   - **Maven**: For project build and dependency management.
+
+4. **Other Utilities**
+   - **Lombok**: For reducing boilerplate code.
+   - **Swagger**: For API documentation.
+   - **JUnit & Mockito**: For unit and integration testing.
+
+#### Frontend
+1. **React.js**
+   - Framework for building the user interface.
+   - **Redux**: For state management.
+
+2. **TypeScript**
+   - Superset of JavaScript that adds static types.
+
+3. **Material-UI**
+   - Component library for implementing the user interface.
+
+4. **Axios**
+   - HTTP client for making API requests.
+
+5. **Jest & React Testing Library**
+   - For frontend testing.
+
+#### DevOps
+1. **Docker**
+   - Containerization of the application for consistent development, testing, and production environments.
+
+2. **Docker Compose**
+   - For orchestrating multi-container Docker applications.
+
+3. **CI/CD**
+   - **GitHub Actions**: For continuous integration and continuous deployment.
+
+4. **Cloud Hosting**
+   - **AWS** (Amazon Web Services): For hosting the application (EC2, RDS for PostgreSQL).
+   - **Heroku**: As an alternative for easier deployment during development.
+
+#### Other Tools
+1. **Git**
+   - Version control system for source code management.
+   - **GitHub**: For repository hosting and collaboration.
+
+2. **Postman**
+   - API testing and development tool.
+
+3. **Figma**
+   - For designing and prototyping user interface mockups.
+
+By leveraging these technologies, you can build a robust, scalable, and maintainable application for managing laboratory and practical work. Each technology plays a crucial role in different aspects of the project, from backend development and database management to frontend development and deployment.
